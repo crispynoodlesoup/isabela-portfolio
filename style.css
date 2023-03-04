@@ -47,9 +47,9 @@ nav ul li {
   transition: all 0.1s;
 }
 
-nav ul li:hover {
-  /*border-bottom: var(--accent) solid 4px;*/
-}
+/*nav ul li:hover {
+  border-bottom: var(--accent) solid 4px;
+}*/
 
 nav {
   /*background-color: var(--primary);*/
