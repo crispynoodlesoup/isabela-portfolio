@@ -58,6 +58,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   border-bottom: 2px solid #dadada;
+  background-color: white;
 }
 
 .logo {
@@ -85,14 +86,32 @@ main {
   align-items: center;
   justify-items: right;
   padding: 32px;
+  padding-right: 64px;
 }
 
 .main-head-text {
-  width: clamp(400px, 70%, 800px);
+  width: clamp(400px, 70%, 500px);
 }
 
 .main-head-text h1 {
   font-size: 32px;
+}
+
+.main-head-right {
+  display: grid;
+  grid-template-columns: 1fr minmax(200px, 300px) minmax(200px, 300px) 1fr;
+  gap: 64px;
+}
+
+.image-scroll-left {
+  height: 100%;
+  background-color: brown;
+  grid-column: 2 / 3;
+}
+
+.image-scroll-right {
+  height: 100%;
+  background-color: bisque;
 }
 
 footer {
